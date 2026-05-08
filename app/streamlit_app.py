@@ -8,7 +8,7 @@ DB_PATH=Path(__file__).resolve().parents[1]/'data'/'study.db'
 SCHEMA_PATH=Path(__file__).resolve().parents[1]/'sql'/'schema.sql'
 MODEL_PATH=Path(__file__).resolve().parents[1]/'models'/'pipeline.joblib'
 st.set_page_config(page_title='AI Study Tracker', page_icon='📚', layout='wide')
-st.title('📚 AI-Powered Personal Study Tracker')
+st.title('📚 Ninja-T AI-Powered Personal Study Tracker')
 CFG={'displayModeBar':True,'responsive':True}
 @st.cache_data(show_spinner=False)
 def load_df()->pd.DataFrame:
